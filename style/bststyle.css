@@ -1,0 +1,34 @@
+.bg-header {
+    
+}
+
+.bg-jambo {
+    background-image: url(../img/bg-smog.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.feedback-text {
+    width: 50%;
+    background-color: azure;
+    opacity: 0.5;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.myprogressstyle {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.legendecolor {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutboiler {
+    position: relative;
+    overflow-y: scroll;
+    height: 80vh;
+}
