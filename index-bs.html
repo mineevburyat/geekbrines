@@ -7,16 +7,64 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style/stylebs.css">
     <title>Bootstrap</title>
   </head>
   <body>
     <header class=".container-fluid">
       <div class="container">
-        <!-- TODO Menu BS-->
-        <div class="top_info">
-          <h1>Заголовок 1</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis dicta minus optio assumenda ad eveniet similique pariatur dolorum ex!</p>
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+          <img src="img/wwwicon.png" alt="">
+          <a class="navbar-brand h1 mb-2" href="#">MyLogo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link active" href="#"><img src="img/logo.svg" alt="Home" title="на первую страницу"><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-primary mr-2 mt-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  О городском смоге
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-info" href="#">Причины</a>
+                  <a class="dropdown-item bg-info" href="#">Стоимость отопления</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item bg-info" href="#">Способы отопления</a>
+                  <a class="dropdown-item bg-info" href="#">Способы уменьшить смог</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-primary mt-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Другие проекты
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-info" href="#">Солнечная энергетика</a>
+                  <a class="dropdown-item bg-info" href="#">Умный дом и безопасность</a>
+                  <a class="dropdown-item bg-info" href="#">Теплоэффективный дом</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/Vector.svg" alt="Контакты" title="Как со мной связаться"></a>
+              </li>
+            </ul>
+            <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <button class="btn btn-sm btn-outline-secondary" type="button">Поиск</button>
+              </form>
+            </nav>
+          </div>
+        </nav>
+        <div class="row row-cols-1 row-cols-md-2 pt-5 top_info ">
+          <div class="col">
+            <h1 class="mt-5">Заголовок 1</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis dicta minus optio assumenda ad eveniet similique pariatur dolorum ex!</p>
+            <input class="mt-5 mb-5 btn btn-primary" type="button" value="Связаться">
+          </div>
+          
         </div>
         <!-- TODO Button BS -->
       </div>
